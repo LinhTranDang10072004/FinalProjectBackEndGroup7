@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HotelManagementApi.Migrations
 {
     [DbContext(typeof(HotelDbContext))]
-    [Migration("20251119183419_InitialCreate")]
+    [Migration("20251120025848_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -94,7 +94,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110001",
                             BookingStatus = "Confirmed",
                             ChildCount = 0,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6380),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(270),
                             DepositAmount = 500000m,
                             TotalAmount = 1600000m,
                             UserID = 5
@@ -106,7 +106,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110002",
                             BookingStatus = "Check-in",
                             ChildCount = 1,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6388),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(277),
                             DepositAmount = 2400000m,
                             TotalAmount = 2400000m,
                             UserID = 6
@@ -118,7 +118,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110003",
                             BookingStatus = "Cancelled",
                             ChildCount = 0,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6390),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(279),
                             DepositAmount = 0m,
                             TotalAmount = 3600000m,
                             UserID = 7
@@ -130,7 +130,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110004",
                             BookingStatus = "Confirmed",
                             ChildCount = 2,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6392),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(282),
                             DepositAmount = 1000000m,
                             TotalAmount = 5000000m,
                             UserID = 8
@@ -142,7 +142,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110005",
                             BookingStatus = "Check-out",
                             ChildCount = 0,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6397),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(316),
                             DepositAmount = 1200000m,
                             TotalAmount = 1200000m,
                             UserID = 9
@@ -154,7 +154,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110006",
                             BookingStatus = "Confirmed",
                             ChildCount = 1,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6399),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(318),
                             DepositAmount = 2000000m,
                             TotalAmount = 7500000m,
                             UserID = 10
@@ -166,7 +166,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110007",
                             BookingStatus = "No-show",
                             ChildCount = 0,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6401),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(319),
                             DepositAmount = 0m,
                             TotalAmount = 2400000m,
                             UserID = 11
@@ -178,7 +178,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110008",
                             BookingStatus = "Confirmed",
                             ChildCount = 0,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6402),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(321),
                             DepositAmount = 800000m,
                             TotalAmount = 1600000m,
                             UserID = 12
@@ -190,7 +190,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110009",
                             BookingStatus = "Confirmed",
                             ChildCount = 2,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6404),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(323),
                             DepositAmount = 3000000m,
                             TotalAmount = 10000000m,
                             UserID = 13
@@ -202,7 +202,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110010",
                             BookingStatus = "Check-in",
                             ChildCount = 0,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6405),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(324),
                             DepositAmount = 3600000m,
                             TotalAmount = 3600000m,
                             UserID = 14
@@ -214,7 +214,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110011",
                             BookingStatus = "Confirmed",
                             ChildCount = 0,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6406),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(326),
                             DepositAmount = 0m,
                             TotalAmount = 1200000m,
                             UserID = 15
@@ -226,7 +226,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110012",
                             BookingStatus = "Confirmed",
                             ChildCount = 1,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6408),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(327),
                             DepositAmount = 1500000m,
                             TotalAmount = 5000000m,
                             UserID = 16
@@ -238,7 +238,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110013",
                             BookingStatus = "Confirmed",
                             ChildCount = 0,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6409),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(330),
                             DepositAmount = 2000000m,
                             TotalAmount = 7500000m,
                             UserID = 17
@@ -250,7 +250,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110014",
                             BookingStatus = "Check-out",
                             ChildCount = 0,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6411),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(332),
                             DepositAmount = 2400000m,
                             TotalAmount = 2400000m,
                             UserID = 18
@@ -262,7 +262,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110015",
                             BookingStatus = "Confirmed",
                             ChildCount = 2,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6412),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(334),
                             DepositAmount = 4000000m,
                             TotalAmount = 12000000m,
                             UserID = 19
@@ -274,7 +274,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110016",
                             BookingStatus = "Confirmed",
                             ChildCount = 0,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6414),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(335),
                             DepositAmount = 0m,
                             TotalAmount = 1600000m,
                             UserID = 20
@@ -286,7 +286,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110017",
                             BookingStatus = "Confirmed",
                             ChildCount = 1,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6415),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(337),
                             DepositAmount = 1000000m,
                             TotalAmount = 3600000m,
                             UserID = 5
@@ -298,7 +298,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110018",
                             BookingStatus = "Check-in",
                             ChildCount = 0,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6416),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(338),
                             DepositAmount = 5000000m,
                             TotalAmount = 5000000m,
                             UserID = 6
@@ -310,7 +310,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110019",
                             BookingStatus = "Confirmed",
                             ChildCount = 1,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6418),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(340),
                             DepositAmount = 3000000m,
                             TotalAmount = 9000000m,
                             UserID = 7
@@ -322,7 +322,7 @@ namespace HotelManagementApi.Migrations
                             BookingCode = "HTL25110020",
                             BookingStatus = "Check-out",
                             ChildCount = 0,
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6419),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(341),
                             DepositAmount = 2400000m,
                             TotalAmount = 2400000m,
                             UserID = 8
@@ -670,7 +670,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 1,
                             Address = "123 Đường Lê Lợi, Quận 1, TP.HCM",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5562),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9418),
                             DateOfBirth = new DateTime(1985, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "admin@hotel.com",
                             FirstName = "Nguyễn",
@@ -679,7 +679,7 @@ namespace HotelManagementApi.Migrations
                             LastName = "Văn Quý",
                             Nationality = "VietNam",
                             Notes = "Quản trị viên hệ thống - Chủ khách sạn",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0901000001",
                             UserRole = "Admin"
                         },
@@ -687,7 +687,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 2,
                             Address = "456 Hai Bà Trưng, Q3",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5600),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9465),
                             DateOfBirth = new DateTime(1996, 7, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "lan@hotel.com",
                             FirstName = "Trần",
@@ -696,7 +696,7 @@ namespace HotelManagementApi.Migrations
                             LastName = "Thị Lan",
                             Nationality = "VietNam",
                             Notes = "Lễ tân ca sáng",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0901000002",
                             UserRole = "Receptionist"
                         },
@@ -704,7 +704,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 3,
                             Address = "789 Nguyễn Huệ, Q1",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5606),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9468),
                             DateOfBirth = new DateTime(1994, 11, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "hung@hotel.com",
                             FirstName = "Lê",
@@ -713,7 +713,7 @@ namespace HotelManagementApi.Migrations
                             LastName = "Văn Hùng",
                             Nationality = "VietNam",
                             Notes = "Lễ tân ca tối",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0901000003",
                             UserRole = "Receptionist"
                         },
@@ -721,7 +721,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 4,
                             Address = "321 Bùi Viện, Q1",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5608),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9471),
                             DateOfBirth = new DateTime(1998, 4, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "mai@hotel.com",
                             FirstName = "Phạm",
@@ -730,7 +730,7 @@ namespace HotelManagementApi.Migrations
                             LastName = "Thị Mai",
                             Nationality = "VietNam",
                             Notes = "Lễ tân ca đêm",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0901000004",
                             UserRole = "Receptionist"
                         },
@@ -738,7 +738,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 5,
                             Address = "Hà Nội",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5610),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9474),
                             DateOfBirth = new DateTime(1990, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "an@gmail.com",
                             FirstName = "Nguyễn",
@@ -746,7 +746,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456793",
                             LastName = "Văn An",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000005",
                             UserRole = "Customer"
                         },
@@ -754,7 +754,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 6,
                             Address = "Đà Nẵng",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5613),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9477),
                             DateOfBirth = new DateTime(1992, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "binh@gmail.com",
                             FirstName = "Trần",
@@ -762,7 +762,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456794",
                             LastName = "Thị Bình",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000006",
                             UserRole = "Customer"
                         },
@@ -770,7 +770,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 7,
                             Address = "Nha Trang",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5614),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9479),
                             DateOfBirth = new DateTime(1988, 3, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "cuong@gmail.com",
                             FirstName = "Lê",
@@ -778,7 +778,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456795",
                             LastName = "Văn Cường",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000007",
                             UserRole = "Customer"
                         },
@@ -786,7 +786,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 8,
                             Address = "Phú Quốc",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5616),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9481),
                             DateOfBirth = new DateTime(1995, 4, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "dung@gmail.com",
                             FirstName = "Phạm",
@@ -794,7 +794,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456796",
                             LastName = "Thị Dung",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000008",
                             UserRole = "Customer"
                         },
@@ -802,7 +802,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 9,
                             Address = "Cần Thơ",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5618),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9482),
                             DateOfBirth = new DateTime(1993, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "em@gmail.com",
                             FirstName = "Hoàng",
@@ -810,7 +810,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456797",
                             LastName = "Văn Em",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000009",
                             UserRole = "Customer"
                         },
@@ -818,7 +818,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 10,
                             Address = "Hải Phòng",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5620),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9484),
                             DateOfBirth = new DateTime(1991, 6, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "phuong@gmail.com",
                             FirstName = "Vũ",
@@ -826,7 +826,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456798",
                             LastName = "Thị Phượng",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000010",
                             UserRole = "Customer"
                         },
@@ -834,7 +834,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 11,
                             Address = "Vũng Tàu",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5622),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9486),
                             DateOfBirth = new DateTime(1989, 7, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "giang@gmail.com",
                             FirstName = "Đặng",
@@ -842,7 +842,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456799",
                             LastName = "Văn Giang",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000011",
                             UserRole = "Customer"
                         },
@@ -850,7 +850,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 12,
                             Address = "Đà Lạt",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5624),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9626),
                             DateOfBirth = new DateTime(1997, 8, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "hanh@gmail.com",
                             FirstName = "Bùi",
@@ -858,7 +858,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456100",
                             LastName = "Thị Hạnh",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000012",
                             UserRole = "Customer"
                         },
@@ -866,7 +866,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 13,
                             Address = "Huế",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5625),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9629),
                             DateOfBirth = new DateTime(1994, 9, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "inh@gmail.com",
                             FirstName = "Đỗ",
@@ -874,7 +874,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456101",
                             LastName = "Văn Inh",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000013",
                             UserRole = "Customer"
                         },
@@ -882,7 +882,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 14,
                             Address = "Quảng Ninh",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5627),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9631),
                             DateOfBirth = new DateTime(1996, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "kieu@gmail.com",
                             FirstName = "Ngô",
@@ -890,7 +890,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456102",
                             LastName = "Thị Kiều",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000014",
                             UserRole = "Customer"
                         },
@@ -898,7 +898,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 15,
                             Address = "Sapa",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5630),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9634),
                             DateOfBirth = new DateTime(1990, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "long@gmail.com",
                             FirstName = "Hà",
@@ -906,7 +906,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456103",
                             LastName = "Văn Long",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000015",
                             UserRole = "Customer"
                         },
@@ -914,7 +914,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 16,
                             Address = "Hội An",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5633),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9636),
                             DateOfBirth = new DateTime(1992, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "minh@gmail.com",
                             FirstName = "Lý",
@@ -922,7 +922,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456104",
                             LastName = "Thị Minh",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000016",
                             UserRole = "Customer"
                         },
@@ -930,7 +930,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 17,
                             Address = "Ninh Bình",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5635),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9638),
                             DateOfBirth = new DateTime(1987, 1, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "nam@gmail.com",
                             FirstName = "Mai",
@@ -938,7 +938,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456105",
                             LastName = "Văn Nam",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000017",
                             UserRole = "Customer"
                         },
@@ -946,7 +946,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 18,
                             Address = "Phan Thiết",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5637),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9640),
                             DateOfBirth = new DateTime(1999, 2, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "oanh@gmail.com",
                             FirstName = "Tô",
@@ -954,7 +954,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456106",
                             LastName = "Thị Oanh",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000018",
                             UserRole = "Customer"
                         },
@@ -962,7 +962,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 19,
                             Address = "Quy Nhơn",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5639),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9642),
                             DateOfBirth = new DateTime(1993, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "phong@gmail.com",
                             FirstName = "Dương",
@@ -970,7 +970,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456107",
                             LastName = "Văn Phong",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000019",
                             UserRole = "Customer"
                         },
@@ -978,7 +978,7 @@ namespace HotelManagementApi.Migrations
                         {
                             UserID = 20,
                             Address = "Cà Mau",
-                            CreatedDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(5641),
+                            CreatedDate = new DateTime(2025, 11, 20, 9, 58, 48, 191, DateTimeKind.Local).AddTicks(9643),
                             DateOfBirth = new DateTime(1995, 4, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "quyen@gmail.com",
                             FirstName = "Chu",
@@ -986,7 +986,7 @@ namespace HotelManagementApi.Migrations
                             IdCard = "00123456108",
                             LastName = "Thị Quyên",
                             Nationality = "VietNam",
-                            PasswordHash = "$2a$11$fprATkAvLkGWRxAMJn/aUuH1.cIFvbe7tSAmC.rzyAEjniOEBIdY.",
+                            PasswordHash = "$2a$11$ST7TQ.V6xB5pIRV.jnWtFuMmbPa6Iog4ojzuHqMkC8YafWePJ.fxi",
                             Phone = "0911000020",
                             UserRole = "Customer"
                         });
@@ -1052,7 +1052,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 1,
                             BookingID = 1,
                             InvoiceCode = "INV25110001",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6588),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(501),
                             PaidAmount = 500000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1065,7 +1065,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 2,
                             BookingID = 2,
                             InvoiceCode = "INV25110002",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6594),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(504),
                             PaidAmount = 2400000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1078,7 +1078,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 3,
                             BookingID = 3,
                             InvoiceCode = "INV25110003",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6596),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(505),
                             PaidAmount = 0m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1091,7 +1091,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 4,
                             BookingID = 4,
                             InvoiceCode = "INV25110004",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6597),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(508),
                             PaidAmount = 1000000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1104,7 +1104,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 5,
                             BookingID = 5,
                             InvoiceCode = "INV25110005",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6598),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(509),
                             PaidAmount = 1200000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1117,7 +1117,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 6,
                             BookingID = 6,
                             InvoiceCode = "INV25110006",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6600),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(511),
                             PaidAmount = 2000000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1130,7 +1130,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 7,
                             BookingID = 7,
                             InvoiceCode = "INV25110007",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6602),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(512),
                             PaidAmount = 0m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1143,7 +1143,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 8,
                             BookingID = 8,
                             InvoiceCode = "INV25110008",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6603),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(513),
                             PaidAmount = 800000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1156,7 +1156,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 9,
                             BookingID = 9,
                             InvoiceCode = "INV25110009",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6605),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(514),
                             PaidAmount = 3000000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1169,7 +1169,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 10,
                             BookingID = 10,
                             InvoiceCode = "INV25110010",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6607),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(516),
                             PaidAmount = 3600000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1182,7 +1182,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 11,
                             BookingID = 11,
                             InvoiceCode = "INV25110011",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6608),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(519),
                             PaidAmount = 0m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1195,7 +1195,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 12,
                             BookingID = 12,
                             InvoiceCode = "INV25110012",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6610),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(520),
                             PaidAmount = 1500000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1208,7 +1208,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 13,
                             BookingID = 13,
                             InvoiceCode = "INV25110013",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6612),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(538),
                             PaidAmount = 2000000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1221,7 +1221,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 14,
                             BookingID = 14,
                             InvoiceCode = "INV25110014",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6614),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(539),
                             PaidAmount = 2400000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1234,7 +1234,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 15,
                             BookingID = 15,
                             InvoiceCode = "INV25110015",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6616),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(541),
                             PaidAmount = 4000000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1247,7 +1247,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 16,
                             BookingID = 16,
                             InvoiceCode = "INV25110016",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6617),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(542),
                             PaidAmount = 0m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1260,7 +1260,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 17,
                             BookingID = 17,
                             InvoiceCode = "INV25110017",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6618),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(545),
                             PaidAmount = 1000000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1273,7 +1273,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 18,
                             BookingID = 18,
                             InvoiceCode = "INV25110018",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6619),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(546),
                             PaidAmount = 5000000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1286,7 +1286,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 19,
                             BookingID = 19,
                             InvoiceCode = "INV25110019",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6620),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(547),
                             PaidAmount = 3000000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1299,7 +1299,7 @@ namespace HotelManagementApi.Migrations
                             InvoiceID = 20,
                             BookingID = 20,
                             InvoiceCode = "INV25110020",
-                            IssueDate = new DateTime(2025, 11, 20, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6622),
+                            IssueDate = new DateTime(2025, 11, 20, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(549),
                             PaidAmount = 2400000m,
                             PaymentStatus = "Complete",
                             TotalDiscount = 0m,
@@ -1578,7 +1578,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 1,
                             ChangedBy = 2,
-                            ChangedDate = new DateTime(2025, 11, 15, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6673),
+                            ChangedDate = new DateTime(2025, 11, 15, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(600),
                             NewStatus = "Booked",
                             OldStatus = "Available",
                             Reason = "Đặt phòng HTL25110001",
@@ -1588,7 +1588,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 2,
                             ChangedBy = 3,
-                            ChangedDate = new DateTime(2025, 11, 19, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6676),
+                            ChangedDate = new DateTime(2025, 11, 19, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(604),
                             NewStatus = "Occupied",
                             OldStatus = "Available",
                             Reason = "Check-in khách walk-in",
@@ -1598,7 +1598,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 3,
                             ChangedBy = 4,
-                            ChangedDate = new DateTime(2025, 11, 17, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6678),
+                            ChangedDate = new DateTime(2025, 11, 17, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(606),
                             NewStatus = "Booked",
                             OldStatus = "Available",
                             Reason = "Đặt phòng HTL25110003",
@@ -1608,7 +1608,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 4,
                             ChangedBy = 2,
-                            ChangedDate = new DateTime(2025, 11, 18, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6680),
+                            ChangedDate = new DateTime(2025, 11, 18, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(608),
                             NewStatus = "Occupied",
                             OldStatus = "Booked",
                             Reason = "Check-in sớm",
@@ -1618,7 +1618,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 5,
                             ChangedBy = 3,
-                            ChangedDate = new DateTime(2025, 11, 16, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6681),
+                            ChangedDate = new DateTime(2025, 11, 16, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(609),
                             NewStatus = "Booked",
                             OldStatus = "Available",
                             Reason = "Đặt phòng HTL25110005",
@@ -1628,7 +1628,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 6,
                             ChangedBy = 4,
-                            ChangedDate = new DateTime(2025, 11, 14, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6683),
+                            ChangedDate = new DateTime(2025, 11, 14, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(611),
                             NewStatus = "Occupied",
                             OldStatus = "Booked",
                             Reason = "Check-in",
@@ -1638,7 +1638,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 7,
                             ChangedBy = 2,
-                            ChangedDate = new DateTime(2025, 11, 13, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6685),
+                            ChangedDate = new DateTime(2025, 11, 13, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(613),
                             NewStatus = "Available",
                             OldStatus = "Occupied",
                             Reason = "Check-out",
@@ -1648,7 +1648,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 8,
                             ChangedBy = 3,
-                            ChangedDate = new DateTime(2025, 11, 12, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6686),
+                            ChangedDate = new DateTime(2025, 11, 12, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(615),
                             NewStatus = "Booked",
                             OldStatus = "Available",
                             Reason = "Đặt phòng HTL25110008",
@@ -1658,7 +1658,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 9,
                             ChangedBy = 1,
-                            ChangedDate = new DateTime(2025, 11, 10, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6688),
+                            ChangedDate = new DateTime(2025, 11, 10, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(618),
                             NewStatus = "Available",
                             OldStatus = "Maintenance",
                             Reason = "Sửa chữa xong",
@@ -1668,7 +1668,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 10,
                             ChangedBy = 4,
-                            ChangedDate = new DateTime(2025, 11, 11, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6689),
+                            ChangedDate = new DateTime(2025, 11, 11, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(619),
                             NewStatus = "Booked",
                             OldStatus = "Available",
                             Reason = "Đặt phòng",
@@ -1678,7 +1678,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 11,
                             ChangedBy = 2,
-                            ChangedDate = new DateTime(2025, 11, 9, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6691),
+                            ChangedDate = new DateTime(2025, 11, 9, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(621),
                             NewStatus = "Occupied",
                             OldStatus = "Booked",
                             Reason = "Check-in",
@@ -1688,7 +1688,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 12,
                             ChangedBy = 3,
-                            ChangedDate = new DateTime(2025, 11, 8, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6693),
+                            ChangedDate = new DateTime(2025, 11, 8, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(623),
                             NewStatus = "Available",
                             OldStatus = "Occupied",
                             Reason = "Check-out",
@@ -1698,7 +1698,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 13,
                             ChangedBy = 4,
-                            ChangedDate = new DateTime(2025, 11, 7, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6695),
+                            ChangedDate = new DateTime(2025, 11, 7, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(624),
                             NewStatus = "Booked",
                             OldStatus = "Available",
                             Reason = "Đặt phòng",
@@ -1708,7 +1708,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 14,
                             ChangedBy = 2,
-                            ChangedDate = new DateTime(2025, 11, 6, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6697),
+                            ChangedDate = new DateTime(2025, 11, 6, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(626),
                             NewStatus = "Occupied",
                             OldStatus = "Booked",
                             Reason = "Check-in",
@@ -1718,7 +1718,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 15,
                             ChangedBy = 3,
-                            ChangedDate = new DateTime(2025, 11, 5, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6699),
+                            ChangedDate = new DateTime(2025, 11, 5, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(628),
                             NewStatus = "Available",
                             OldStatus = "Occupied",
                             Reason = "Check-out",
@@ -1728,7 +1728,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 16,
                             ChangedBy = 4,
-                            ChangedDate = new DateTime(2025, 11, 4, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6701),
+                            ChangedDate = new DateTime(2025, 11, 4, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(629),
                             NewStatus = "Booked",
                             OldStatus = "Available",
                             Reason = "Đặt phòng",
@@ -1738,7 +1738,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 17,
                             ChangedBy = 2,
-                            ChangedDate = new DateTime(2025, 11, 3, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6702),
+                            ChangedDate = new DateTime(2025, 11, 3, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(631),
                             NewStatus = "Occupied",
                             OldStatus = "Booked",
                             Reason = "Check-in",
@@ -1748,7 +1748,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 18,
                             ChangedBy = 3,
-                            ChangedDate = new DateTime(2025, 11, 2, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6704),
+                            ChangedDate = new DateTime(2025, 11, 2, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(633),
                             NewStatus = "Available",
                             OldStatus = "Occupied",
                             Reason = "Check-out",
@@ -1758,7 +1758,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 19,
                             ChangedBy = 4,
-                            ChangedDate = new DateTime(2025, 11, 1, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6705),
+                            ChangedDate = new DateTime(2025, 11, 1, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(635),
                             NewStatus = "Booked",
                             OldStatus = "Available",
                             Reason = "Đặt phòng",
@@ -1768,7 +1768,7 @@ namespace HotelManagementApi.Migrations
                         {
                             LogID = 20,
                             ChangedBy = 2,
-                            ChangedDate = new DateTime(2025, 10, 31, 1, 34, 16, 98, DateTimeKind.Local).AddTicks(6707),
+                            ChangedDate = new DateTime(2025, 10, 31, 9, 58, 48, 192, DateTimeKind.Local).AddTicks(636),
                             NewStatus = "Occupied",
                             OldStatus = "Booked",
                             Reason = "Check-in",
