@@ -1,4 +1,4 @@
-﻿namespace HotelManagementApi.DTOs
+﻿namespace HotelManagementApi.DTOs.RoomType
 {
     public class UpdateRoomTypeDto
     {

@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HotelManagementApi.Data;
-using HotelManagementApi.DTOs.Auth;
 using HotelManagementApi.Services;
 using BCrypt.Net;
 using HotelManagementApi.DTOs;
+using HotelManagementApi.DTOs.LoginUser;
 
 namespace HotelManagementApi.Controllers
 {

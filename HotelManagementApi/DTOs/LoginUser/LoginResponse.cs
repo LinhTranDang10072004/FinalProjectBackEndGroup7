@@ -1,4 +1,4 @@
-﻿namespace HotelManagementApi.DTOs.Auth
+﻿namespace HotelManagementApi.DTOs.LoginUser
 {
     public class LoginResponse
     {

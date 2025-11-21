@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace HotelManagementApi.DTOs
+namespace HotelManagementApi.DTOs.RoomType
 {
     public class CreateRoomTypeDto
     {
