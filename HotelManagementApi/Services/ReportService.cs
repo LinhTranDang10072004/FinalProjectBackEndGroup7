@@ -7,102 +7,115 @@ namespace HotelManagementApi.Services
     public class ReportService : IReportService
     {
         private readonly HotelDbContext _context;
+        private const int TotalRooms = 20;
 
-        public ReportService(HotelDbContext context)
+        public ReportService(HotelDbContext context) => _context = context;
+
+        private IQueryable<BookingDetail> ValidBookings => _context.BookingDetails
+            .Include(bd => bd.Booking)
+            .Where(bd => bd.Booking.BookingStatus != "Cancelled" && bd.Booking.BookingStatus != "No-show");
+
+        public Task<decimal> GetRevenueByDateAsync(DateTime date) =>
+            GetRevenueByDateRangeAsync(date.Date, date.Date);
+
+        public async Task<decimal> GetRevenueByDateRangeAsync(DateTime fromDate, DateTime toDate)
         {
-            _context = context;
-        }
+            var from = fromDate.Date;
+            var to = toDate.Date.AddDays(1);
 
-        // 1. Doanh thu 1 ngày (dựa vào ngày Check-out)
-        public async Task<decimal> GetRevenueByDateAsync(DateTime date)
-        {
-            var start = date.Date;
-            var end = date.Date.AddDays(1);
-
-            return await _context.BookingDetails
-                .Where(bd => bd.CheckOutDate >= start && bd.CheckOutDate < end)
-                .SumAsync(bd => bd.PricePerNight * EF.Functions.DateDiffDay(bd.CheckInDate.Date, bd.CheckOutDate.Date));
-        }
-
-        // 2. Chi tiết từng ngày trong 1 tháng (bao gồm ngày 0đ)
-        public async Task<List<DailyRevenueDto>> GetRevenueByMonthAsync(int year, int month)
-        {
-            var startOfMonth = new DateTime(year, month, 1);
-            var endOfMonth = startOfMonth.AddMonths(1);
-
-            var rawData = await _context.BookingDetails
-                .Where(bd => bd.CheckOutDate >= startOfMonth && bd.CheckOutDate < endOfMonth)
-                .GroupBy(bd => bd.CheckOutDate.Date)
-                .Select(g => new
-                {
-                    Date = g.Key,
-                    Revenue = g.Sum(bd => bd.PricePerNight * EF.Functions.DateDiffDay(bd.CheckInDate.Date, bd.CheckOutDate.Date)),
-                    Count = g.Count(),
-                    Nights = g.Sum(bd => EF.Functions.DateDiffDay(bd.CheckInDate.Date, bd.CheckOutDate.Date))
-                })
+            var bookings = await ValidBookings
+                .Where(bd => bd.CheckInDate < to && bd.CheckOutDate > from)
                 .ToListAsync();
 
-            // Tạo đầy đủ các ngày trong tháng (kể cả ngày không có doanh thu)
-            var allDays = Enumerable.Range(1, DateTime.DaysInMonth(year, month))
-                .Select(d => new DateTime(year, month, d))
-                .ToList();
-
-            var result = allDays.Select(day =>
+            decimal total = 0m;
+            foreach (var bd in bookings)
             {
-                var data = rawData.FirstOrDefault(x => x.Date == day.Date);
-                return new DailyRevenueDto
-                {
-                    Date = day.Date,
-                    RoomRevenue = data?.Revenue ?? 0m,
-                    CheckOutCount = data?.Count ?? 0,
-                    RoomNights = data?.Nights ?? 0
-                };
-            }).ToList();
+                var start = bd.CheckInDate.Date < from ? from : bd.CheckInDate.Date;
+                var end = bd.CheckOutDate.Date > to ? to : bd.CheckOutDate.Date;
+                var nights = (end - start).Days;
+                if (nights > 0)
+                    total += bd.PricePerNight * nights;
+            }
+            return total;
+        }
 
+        public async Task<List<DailyRevenueDto>> GetRevenueByMonthAsync(int year, int month)
+        {
+            var start = new DateTime(year, month, 1);
+            var end = start.AddMonths(1);
+
+            var dict = new Dictionary<DateTime, DailyRevenueDto>();
+            for (var d = start; d < end; d = d.AddDays(1))
+                dict[d.Date] = new DailyRevenueDto { Date = d };
+
+            var bookings = await ValidBookings
+                .Where(bd => bd.CheckInDate < end && bd.CheckOutDate > start)
+                .ToListAsync();
+
+            foreach (var bd in bookings)
+            {
+                for (var night = bd.CheckInDate.Date; night < bd.CheckOutDate.Date; night = night.AddDays(1))
+                {
+                    if (night >= start && night < end && dict.TryGetValue(night, out var dto))
+                    {
+                        dto.RoomRevenue += bd.PricePerNight;
+                        dto.RoomNights += 1;
+                        if (night.AddDays(1).Date == bd.CheckOutDate.Date)
+                            dto.CheckOutCount += 1;
+                    }
+                }
+            }
+
+            foreach (var dto in dict.Values)
+            {
+                dto.OccupancyRate = Math.Round(dto.RoomNights / (decimal)TotalRooms * 100, 2);
+                dto.ADR = dto.RoomNights > 0 ? Math.Round(dto.RoomRevenue / dto.RoomNights, 2) : 0;
+                dto.RevPAR = Math.Round(dto.RoomRevenue / TotalRooms, 2);
+            }
+
+            return dict.Values.OrderBy(x => x.Date).ToList();
+        }
+
+        public async Task<List<MonthlyRevenueDto>> GetRevenueByYearAsync(int year)
+        {
+            var result = new List<MonthlyRevenueDto>();
+
+            for (int m = 1; m <= 12; m++)
+            {
+                var monthStart = new DateTime(year, m, 1);
+                var monthEnd = monthStart.AddMonths(1).AddDays(-1);
+                var revenue = await GetRevenueByDateRangeAsync(monthStart, monthEnd);
+
+                var days = DateTime.DaysInMonth(year, m);
+                var dto = new MonthlyRevenueDto
+                {
+                    Year = year,
+                    Month = m,
+                    RoomRevenue = revenue,
+                    TotalBookings = 0,
+                    TotalRoomNights = 0,
+                    AvgDailyRevenue = Math.Round(revenue / days, 2),
+                    OccupancyRate = 0,
+                    ADR = 0,
+                    RevPAR = Math.Round(revenue / (TotalRooms * days), 2)
+                };
+                result.Add(dto);
+            }
             return result;
         }
 
-        // 3. Doanh thu cả năm (12 tháng)
-        public async Task<List<DailyRevenueDto>> GetRevenueByYearAsync(int year)
-        {
-            var start = new DateTime(year, 1, 1);
-            var end = new DateTime(year + 1, 1, 1);
-
-            var monthlyData = await _context.BookingDetails
-                .Where(bd => bd.CheckOutDate >= start && bd.CheckOutDate < end)
-                .GroupBy(bd => new { bd.CheckOutDate.Year, bd.CheckOutDate.Month })
-                .Select(g => new DailyRevenueDto
-                {
-                    Date = new DateTime(g.Key.Year, g.Key.Month, 1),
-                    RoomRevenue = g.Sum(bd => bd.PricePerNight * EF.Functions.DateDiffDay(bd.CheckInDate.Date, bd.CheckOutDate.Date)),
-                    CheckOutCount = g.Count(),
-                    RoomNights = g.Sum(bd => EF.Functions.DateDiffDay(bd.CheckInDate.Date, bd.CheckOutDate.Date))
-                })
-                .OrderBy(x => x.Date)
-                .ToListAsync();
-
-            return monthlyData;
-        }
-
-        // 4. Doanh thu nhiều năm
         public async Task<List<MonthlyRevenueDto>> GetRevenueRangeAsync(int fromYear, int toYear)
         {
-            var start = new DateTime(fromYear, 1, 1);
-            var end = new DateTime(toYear + 1, 1, 1);
+            var list = new List<MonthlyRevenueDto>();
+            for (int y = fromYear; y <= toYear; y++)
+                list.AddRange(await GetRevenueByYearAsync(y));
+            return list;
+        }
 
-            return await _context.BookingDetails
-                .Where(bd => bd.CheckOutDate >= start && bd.CheckOutDate < end)
-                .GroupBy(bd => new { bd.CheckOutDate.Year, bd.CheckOutDate.Month })
-                .Select(g => new MonthlyRevenueDto
-                {
-                    Year = g.Key.Year,
-                    Month = g.Key.Month,
-                    RoomRevenue = g.Sum(bd => bd.PricePerNight * EF.Functions.DateDiffDay(bd.CheckInDate.Date, bd.CheckOutDate.Date)),
-                    TotalBookings = g.Select(bd => bd.BookingID).Distinct().Count(),
-                    TotalRoomNights = g.Sum(bd => EF.Functions.DateDiffDay(bd.CheckInDate.Date, bd.CheckOutDate.Date))
-                })
-                .OrderBy(x => x.Year).ThenBy(x => x.Month)
-                .ToListAsync();
+        public async Task<decimal> GetTotalRevenueAllTimeAsync()
+        {
+            var bookings = await ValidBookings.ToListAsync();
+            return bookings.Sum(bd => bd.PricePerNight * bd.Nights);
         }
     }
 }

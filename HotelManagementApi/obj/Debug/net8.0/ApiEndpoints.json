@@ -38,6 +38,37 @@
   },
   {
     "ContainingType": "HotelManagementApi.Controllers.ReportsController",
+    "Method": "GetRange",
+    "RelativePath": "api/reports/revenue/range",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelManagementApi.Controllers.ReportsController",
+    "Method": "GetTotal",
+    "RelativePath": "api/reports/revenue/total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelManagementApi.Controllers.ReportsController",
     "Method": "GetYearly",
     "RelativePath": "api/reports/revenue/yearly",
     "HttpMethod": "GET",

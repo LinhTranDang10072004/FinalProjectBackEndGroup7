@@ -28,7 +28,8 @@ namespace HotelManagementApi.Controllers
             if (month.HasValue)
                 return Ok(await _report.GetRevenueByMonthAsync(year, month.Value));
 
-            return Ok(await _report.GetRevenueByYearAsync(year)); // cả năm
+            // Nếu không có month → trả về 12 tháng của năm
+            return Ok(await _report.GetRevenueByYearAsync(year));
         }
 
         // GET: api/reports/revenue/yearly?from=2023&to=2025
@@ -39,5 +40,27 @@ namespace HotelManagementApi.Controllers
             var data = await _report.GetRevenueRangeAsync(from, toYear);
             return Ok(data);
         }
+
+        //Từ ngày đến ngày bất kỳ
+        [HttpGet("range")]
+        public async Task<IActionResult> GetRange([FromQuery] DateTime from, [FromQuery] DateTime to)
+        {
+            var revenue = await _report.GetRevenueByDateRangeAsync(from, to);
+            return Ok(new
+            {
+                From = from.ToString("yyyy-MM-dd"),
+                To = to.ToString("yyyy-MM-dd"),
+                TotalRevenue = revenue
+            });
+        }
+
+        //Tổng doanh thu từ trước đến nay
+        [HttpGet("total")]
+        public async Task<IActionResult> GetTotal()
+        {
+            var total = await _report.GetTotalRevenueAllTimeAsync();
+            return Ok(new { TotalRevenueAllTime = total });
+        }
+
     }
 }
