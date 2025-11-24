@@ -4,8 +4,8 @@ using HotelManagementApi.Services;
 
 namespace HotelManagementApi.Controllers
 {
-    [Route("api/reports/revenue")]
     [ApiController]
+    [Route("api/reports/revenue")]  
     //[Authorize(Roles = "Admin,Receptionist")]
     public class ReportsController : ControllerBase
     {

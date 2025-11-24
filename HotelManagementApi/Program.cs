@@ -22,29 +22,29 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins("http://localhost:4200")
               .AllowAnyHeader()
-              .AllowAnyMethod();
+              .AllowAnyMethod()
+              .AllowCredentials();
     });
 });
 
 var app = builder.Build();
+
+app.UseCors("AllowAngularDev");
 
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<HotelDbContext>();
     db.Database.Migrate(); 
 
-}
 
+}
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
-
-    app.UseCors("AllowAngularDev");
+    app.UseSwaggerUI(); 
 
 }
-
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
