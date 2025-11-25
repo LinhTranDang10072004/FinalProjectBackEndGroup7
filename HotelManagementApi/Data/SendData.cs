@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using HotelManagementApi.Models;
 using BCrypt.Net;
 
@@ -122,23 +122,23 @@ namespace HotelManagementApi.Data
             modelBuilder.Entity<BookingDetail>().HasData(
                 new BookingDetail { BookingDetailID = 1, BookingID = 1, RoomID = 1, RoomTypeID = 1, CheckInDate = new DateTime(2025, 12, 1, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 3, 12, 0, 0), PricePerNight = 800000 },
                 new BookingDetail { BookingDetailID = 2, BookingID = 2, RoomID = 2, RoomTypeID = 1, CheckInDate = DateTime.Today.AddDays(-1), CheckOutDate = DateTime.Today.AddDays(2), PricePerNight = 800000 },
-                new BookingDetail { BookingDetailID = 3, BookingID = 3, RoomID = 3, RoomTypeID = 2, CheckInDate = new DateTime(2025, 12, 5, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 8, 12, 0, 0), PricePerNight = 1200000 },
-                new BookingDetail { BookingDetailID = 4, BookingID = 4, RoomID = 4, RoomTypeID = 2, CheckInDate = new DateTime(2025, 12, 10, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 12, 12, 0, 0), PricePerNight = 1200000 },
-                new BookingDetail { BookingDetailID = 5, BookingID = 5, RoomID = 5, RoomTypeID = 3, CheckInDate = new DateTime(2025, 12, 15, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 18, 12, 0, 0), PricePerNight = 2500000 },
-                new BookingDetail { BookingDetailID = 6, BookingID = 6, RoomID = 6, RoomTypeID = 3, CheckInDate = new DateTime(2025, 12, 20, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 22, 12, 0, 0), PricePerNight = 2500000 },
-                new BookingDetail { BookingDetailID = 7, BookingID = 7, RoomID = 7, RoomTypeID = 4, CheckInDate = new DateTime(2025, 12, 25, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 27, 12, 0, 0), PricePerNight = 1800000 },
-                new BookingDetail { BookingDetailID = 8, BookingID = 8, RoomID = 8, RoomTypeID = 4, CheckInDate = new DateTime(2025, 12, 28, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 30, 12, 0, 0), PricePerNight = 1800000 },
-                new BookingDetail { BookingDetailID = 9, BookingID = 9, RoomID = 9, RoomTypeID = 1, CheckInDate = new DateTime(2025, 12, 1, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 5, 12, 0, 0), PricePerNight = 800000 },
-                new BookingDetail { BookingDetailID = 10, BookingID = 10, RoomID = 10, RoomTypeID = 1, CheckInDate = new DateTime(2025, 12, 6, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 8, 12, 0, 0), PricePerNight = 800000 },
-                new BookingDetail { BookingDetailID = 11, BookingID = 11, RoomID = 11, RoomTypeID = 2, CheckInDate = new DateTime(2025, 12, 9, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 11, 12, 0, 0), PricePerNight = 1200000 },
-                new BookingDetail { BookingDetailID = 12, BookingID = 12, RoomID = 12, RoomTypeID = 2, CheckInDate = new DateTime(2025, 12, 12, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 14, 12, 0, 0), PricePerNight = 1200000 },
-                new BookingDetail { BookingDetailID = 13, BookingID = 13, RoomID = 13, RoomTypeID = 3, CheckInDate = new DateTime(2025, 12, 15, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 17, 12, 0, 0), PricePerNight = 2500000 },
-                new BookingDetail { BookingDetailID = 14, BookingID = 14, RoomID = 14, RoomTypeID = 3, CheckInDate = new DateTime(2025, 12, 18, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 20, 12, 0, 0), PricePerNight = 2500000 },
-                new BookingDetail { BookingDetailID = 15, BookingID = 15, RoomID = 15, RoomTypeID = 4, CheckInDate = new DateTime(2025, 12, 21, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 24, 12, 0, 0), PricePerNight = 1800000 },
-                new BookingDetail { BookingDetailID = 16, BookingID = 16, RoomID = 16, RoomTypeID = 4, CheckInDate = new DateTime(2025, 12, 25, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 27, 12, 0, 0), PricePerNight = 1800000 },
-                new BookingDetail { BookingDetailID = 17, BookingID = 17, RoomID = 17, RoomTypeID = 1, CheckInDate = new DateTime(2025, 12, 28, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 30, 12, 0, 0), PricePerNight = 800000 },
-                new BookingDetail { BookingDetailID = 18, BookingID = 18, RoomID = 18, RoomTypeID = 2, CheckInDate = new DateTime(2025, 12, 1, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 3, 12, 0, 0), PricePerNight = 1200000 },
-                new BookingDetail { BookingDetailID = 19, BookingID = 19, RoomID = 19, RoomTypeID = 3, CheckInDate = new DateTime(2025, 12, 4, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 7, 12, 0, 0), PricePerNight = 2500000 },
+                new BookingDetail { BookingDetailID = 3, BookingID = 3, RoomID = 3, RoomTypeID = 2, CheckInDate = new DateTime(2025, 1, 5, 14, 0, 0), CheckOutDate = new DateTime(2025, 1, 8, 12, 0, 0), PricePerNight = 1200000 },
+                new BookingDetail { BookingDetailID = 4, BookingID = 4, RoomID = 4, RoomTypeID = 2, CheckInDate = new DateTime(2025, 3, 10, 14, 0, 0), CheckOutDate = new DateTime(2025, 3, 12, 12, 0, 0), PricePerNight = 1200000 },
+                new BookingDetail { BookingDetailID = 5, BookingID = 5, RoomID = 5, RoomTypeID = 3, CheckInDate = new DateTime(2025, 3, 15, 14, 0, 0), CheckOutDate = new DateTime(2025, 3, 18, 12, 0, 0), PricePerNight = 2500000 },
+                new BookingDetail { BookingDetailID = 6, BookingID = 6, RoomID = 6, RoomTypeID = 3, CheckInDate = new DateTime(2025, 4, 20, 14, 0, 0), CheckOutDate = new DateTime(2025, 4, 22, 12, 0, 0), PricePerNight = 2500000 },
+                new BookingDetail { BookingDetailID = 7, BookingID = 7, RoomID = 7, RoomTypeID = 4, CheckInDate = new DateTime(2025, 5, 25, 14, 0, 0), CheckOutDate = new DateTime(2025, 5, 27, 12, 0, 0), PricePerNight = 1800000 },
+                new BookingDetail { BookingDetailID = 8, BookingID = 8, RoomID = 8, RoomTypeID = 4, CheckInDate = new DateTime(2025, 5, 28, 14, 0, 0), CheckOutDate = new DateTime(2025, 5, 30, 12, 0, 0), PricePerNight = 1800000 },
+                new BookingDetail { BookingDetailID = 9, BookingID = 9, RoomID = 9, RoomTypeID = 1, CheckInDate = new DateTime(2025, 5, 1, 14, 0, 0), CheckOutDate = new DateTime(2025, 5, 5, 12, 0, 0), PricePerNight = 800000 },
+                new BookingDetail { BookingDetailID = 10, BookingID = 10, RoomID = 10, RoomTypeID = 1, CheckInDate = new DateTime(2025, 6, 6, 14, 0, 0), CheckOutDate = new DateTime(2025, 6, 8, 12, 0, 0), PricePerNight = 800000 },
+                new BookingDetail { BookingDetailID = 11, BookingID = 11, RoomID = 11, RoomTypeID = 2, CheckInDate = new DateTime(2025, 6, 9, 14, 0, 0), CheckOutDate = new DateTime(2025, 6, 11, 12, 0, 0), PricePerNight = 1200000 },
+                new BookingDetail { BookingDetailID = 12, BookingID = 12, RoomID = 12, RoomTypeID = 2, CheckInDate = new DateTime(2025, 7, 12, 14, 0, 0), CheckOutDate = new DateTime(2025, 7, 14, 12, 0, 0), PricePerNight = 1200000 },
+                new BookingDetail { BookingDetailID = 13, BookingID = 13, RoomID = 13, RoomTypeID = 3, CheckInDate = new DateTime(2025, 8, 15, 14, 0, 0), CheckOutDate = new DateTime(2025, 8, 17, 12, 0, 0), PricePerNight = 2500000 },
+                new BookingDetail { BookingDetailID = 14, BookingID = 14, RoomID = 14, RoomTypeID = 3, CheckInDate = new DateTime(2025, 8, 18, 14, 0, 0), CheckOutDate = new DateTime(2025, 8, 20, 12, 0, 0), PricePerNight = 2500000 },
+                new BookingDetail { BookingDetailID = 15, BookingID = 15, RoomID = 15, RoomTypeID = 4, CheckInDate = new DateTime(2025, 9, 21, 14, 0, 0), CheckOutDate = new DateTime(2025, 9, 24, 12, 0, 0), PricePerNight = 1800000 },
+                new BookingDetail { BookingDetailID = 16, BookingID = 16, RoomID = 16, RoomTypeID = 4, CheckInDate = new DateTime(2025, 9, 25, 14, 0, 0), CheckOutDate = new DateTime(2025, 9, 27, 12, 0, 0), PricePerNight = 1800000 },
+                new BookingDetail { BookingDetailID = 17, BookingID = 17, RoomID = 17, RoomTypeID = 1, CheckInDate = new DateTime(2025, 10, 28, 14, 0, 0), CheckOutDate = new DateTime(2025, 10, 30, 12, 0, 0), PricePerNight = 800000 },
+                new BookingDetail { BookingDetailID = 18, BookingID = 18, RoomID = 18, RoomTypeID = 2, CheckInDate = new DateTime(2025, 11, 1, 14, 0, 0), CheckOutDate = new DateTime(2025, 11, 3, 12, 0, 0), PricePerNight = 1200000 },
+                new BookingDetail { BookingDetailID = 19, BookingID = 19, RoomID = 19, RoomTypeID = 3, CheckInDate = new DateTime(2025, 11, 4, 14, 0, 0), CheckOutDate = new DateTime(2025, 11, 7, 12, 0, 0), PricePerNight = 2500000 },
                 new BookingDetail { BookingDetailID = 20, BookingID = 20, RoomID = 20, RoomTypeID = 4, CheckInDate = new DateTime(2025, 12, 8, 14, 0, 0), CheckOutDate = new DateTime(2025, 12, 10, 12, 0, 0), PricePerNight = 1800000 }
             );
 

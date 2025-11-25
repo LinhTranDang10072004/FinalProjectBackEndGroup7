@@ -1,6 +1,6 @@
-﻿namespace HotelManagementApi.Services
+namespace HotelManagementApi.Services
 {
-    public class IRoomTypeService
-    {
+    public interface IRoomTypeService
+
     }
 }
