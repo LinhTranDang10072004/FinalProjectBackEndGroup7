@@ -1,4 +1,4 @@
-﻿using HotelManagementApi.DTOs.Room;
+using HotelManagementApi.DTOs.Room;
 using HotelManagementApi.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -53,5 +53,5 @@ namespace HotelManagementApi.Controllers
             if (!result) return NotFound();
             return NoContent();
         }
-    }
+
 }

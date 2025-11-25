@@ -8,18 +8,17 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// === 1. Cấu hình JWT từ appsettings.json ===
+var jwtSettings = builder.Configuration.GetSection("Jwt");
+
+// === 2. DbContext + Auto Migrate ===
 builder.Services.AddDbContext<HotelDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Register services
-builder.Services.AddScoped<IRoomService, RoomService>();
-builder.Services.AddScoped<IReportService, ReportService>();
+// === 3. Đăng ký JwtService ===
+builder.Services.AddScoped<IJwtService, JwtService>();
 
-// JWT Authentication Configuration
-var jwtSettings = builder.Configuration.GetSection("JwtSettings");
-var secretKey = jwtSettings["SecretKey"] ?? throw new InvalidOperationException("JWT SecretKey not found in configuration");
-
+// === 4. CẤU HÌNH AUTHENTICATION JWTBEARER CHUẨN NHẤT ===
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -91,7 +90,36 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod()
               .AllowCredentials(); // Allow credentials for JWT
     });
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["Key"]!)),
+        ClockSkew = TimeSpan.Zero
+    };
+
+    options.Events = new JwtBearerEvents
+    {
+        OnAuthenticationFailed = context =>
+        {
+            Console.WriteLine("Token invalid: " + context.Exception.Message);
+            return Task.CompletedTask;
+        },
+        OnTokenValidated = context =>
+        {
+            Console.WriteLine("Token hợp lệ cho user: " + context.Principal?.Identity?.Name);
+            return Task.CompletedTask;
+        }
+    };
 });
+
+// === 5. Phân quyền Role ===
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", p => p.RequireRole("Admin"));
+    options.AddPolicy("StaffOnly", p => p.RequireRole("Admin", "Receptionist"));
+});
+
+// === 6. Các service khác ===
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
@@ -99,10 +127,11 @@ using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<HotelDbContext>();
     db.Database.Migrate();
-
 }
 
 // Configure the HTTP request pipeline.
+}
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

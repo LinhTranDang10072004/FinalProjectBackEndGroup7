@@ -1,4 +1,4 @@
-﻿using HotelManagementApi.DTOs.Reposts;
+using HotelManagementApi.DTOs.Reposts;
 
 namespace HotelManagementApi.Services
 {
@@ -8,5 +8,6 @@ namespace HotelManagementApi.Services
         Task<List<DailyRevenueDto>> GetRevenueByMonthAsync(int year, int month);
         Task<List<DailyRevenueDto>> GetRevenueByYearAsync(int year);  // trả về 12 tháng
         Task<List<MonthlyRevenueDto>> GetRevenueRangeAsync(int fromYear, int toYear);
+
     }
 }
