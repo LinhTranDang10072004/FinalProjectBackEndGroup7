@@ -1,0 +1,418 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\controllers\\roomtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\roomtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\services\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\services\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\services\\iroomtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\services\\iroomtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\dtos\\reposts\\monthlyrevenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\dtos\\reposts\\monthlyrevenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\models\\roomstatuslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\models\\roomstatuslog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\dtos\\room\\createroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\dtos\\room\\createroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\dtos\\room\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\dtos\\room\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\dtos\\room\\updateroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\dtos\\room\\updateroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\dtos\\reposts\\dailyrevenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\dtos\\reposts\\dailyrevenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\data\\senddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\data\\senddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\thuc_tap\\project_final\\finalprojectbackend\\hotelmanagementapi\\dtos\\reposts\\yearlyrevenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\dtos\\reposts\\yearlyrevenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\RoomsController.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "HotelManagementApi\\Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T07:16:57.374Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRoomTypeService.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IRoomTypeService.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Services\\IRoomTypeService.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IRoomTypeService.cs",
+              "RelativeToolTip": "HotelManagementApi\\Services\\IRoomTypeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:05:01.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRoomService.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IRoomService.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Services\\IRoomService.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IRoomService.cs",
+              "RelativeToolTip": "HotelManagementApi\\Services\\IRoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:05:01.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\ReportsController.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "HotelManagementApi\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBEAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:33:01.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoomTypesController.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomTypesController.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\RoomTypesController.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomTypesController.cs",
+              "RelativeToolTip": "HotelManagementApi\\Controllers\\RoomTypesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:56:15.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Services\\RoomService.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Services\\RoomService.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Services\\RoomService.cs",
+              "RelativeToolTip": "HotelManagementApi\\Services\\RoomService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:07:27.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Services\\ReportService.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Services\\ReportService.cs",
+              "RelativeToolTip": "HotelManagementApi\\Services\\ReportService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:08:38.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MonthlyRevenueDto.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Reposts\\MonthlyRevenueDto.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Reposts\\MonthlyRevenueDto.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Reposts\\MonthlyRevenueDto.cs",
+              "RelativeToolTip": "HotelManagementApi\\DTOs\\Reposts\\MonthlyRevenueDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:11:14.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IReportService.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Services\\IReportService.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IReportService.cs",
+              "RelativeToolTip": "HotelManagementApi\\Services\\IReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:05:02.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoomStatusLog.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Models\\RoomStatusLog.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Models\\RoomStatusLog.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Models\\RoomStatusLog.cs",
+              "RelativeToolTip": "HotelManagementApi\\Models\\RoomStatusLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:14:08.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateRoomDto.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Room\\CreateRoomDto.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Room\\CreateRoomDto.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Room\\CreateRoomDto.cs",
+              "RelativeToolTip": "HotelManagementApi\\DTOs\\Room\\CreateRoomDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:17:15.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoomDto.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
+              "RelativeToolTip": "HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:09:25.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateRoomDto.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Room\\UpdateRoomDto.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Room\\UpdateRoomDto.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Room\\UpdateRoomDto.cs",
+              "RelativeToolTip": "HotelManagementApi\\DTOs\\Room\\UpdateRoomDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:10:02.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Program.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Program.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Program.cs",
+              "RelativeToolTip": "HotelManagementApi\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:37:24.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SendData.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Data\\SendData.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Data\\SendData.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Data\\SendData.cs",
+              "RelativeToolTip": "HotelManagementApi\\Data\\SendData.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:55:53.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DailyRevenueDto.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Reposts\\DailyRevenueDto.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Reposts\\DailyRevenueDto.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Reposts\\DailyRevenueDto.cs",
+              "RelativeToolTip": "HotelManagementApi\\DTOs\\Reposts\\DailyRevenueDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:11:12.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelManagementApi\\appsettings.json",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\appsettings.json",
+              "RelativeToolTip": "HotelManagementApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-25T02:31:23.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Models\\Room.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\Models\\Room.cs",
+              "RelativeToolTip": "HotelManagementApi\\Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:08:31.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "YearlyRevenueDto.cs",
+              "DocumentMoniker": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Reposts\\YearlyRevenueDto.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Reposts\\YearlyRevenueDto.cs",
+              "ToolTip": "D:\\Thuc_tap\\Project_Final\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Reposts\\YearlyRevenueDto.cs",
+              "RelativeToolTip": "HotelManagementApi\\DTOs\\Reposts\\YearlyRevenueDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:11:20.468Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
