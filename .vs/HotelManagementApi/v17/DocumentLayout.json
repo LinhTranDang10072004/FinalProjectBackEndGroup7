@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\dtos\\loginuser\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\dtos\\loginuser\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\data\\senddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\data\\senddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\dtos\\loginuser\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\dtos\\loginuser\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\dtos\\loginuser\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\dtos\\loginuser\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\hotelmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\hotelmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\dtos\\loginuser\\logindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\dtos\\loginuser\\logindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\data\\senddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\data\\senddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\dtos\\reports\\revenuereportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,24 +83,8 @@
       "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\hotelmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\hotelmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|d:\\github\\project\\finalprojectbackend\\hotelmanagementapi\\services\\iroomtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -186,33 +178,128 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Program.cs",
-              "RelativeDocumentMoniker": "HotelManagementApi\\Program.cs",
-              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Program.cs",
-              "RelativeToolTip": "HotelManagementApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Services\\IAuthService.cs",
+              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IAuthService.cs",
+              "RelativeToolTip": "HotelManagementApi\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T02:41:04.87Z",
+              "WhenOpened": "2025-11-20T03:13:49.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "HotelManagementApi\\Services\\JwtService.cs",
-              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\JwtService.cs",
-              "RelativeToolTip": "HotelManagementApi\\Services\\JwtService.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwEMAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\ReportsController.cs",
+              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "HotelManagementApi\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:00:22.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Services\\AuthService.cs",
+              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\AuthService.cs",
+              "RelativeToolTip": "HotelManagementApi\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T03:15:06.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IReportService.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Services\\IReportService.cs",
+              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IReportService.cs",
+              "RelativeToolTip": "HotelManagementApi\\Services\\IReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:01:08.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Program.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Program.cs",
+              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Program.cs",
+              "RelativeToolTip": "HotelManagementApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T02:41:04.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HotelManagementApi.http",
+              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\HotelManagementApi.http",
+              "RelativeDocumentMoniker": "HotelManagementApi\\HotelManagementApi.http",
+              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\HotelManagementApi.http",
+              "RelativeToolTip": "HotelManagementApi\\HotelManagementApi.http",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-19T03:53:21.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "HotelManagementApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:18:13.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginDtos.cs",
+              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\LoginUser\\LoginDtos.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\LoginUser\\LoginDtos.cs",
+              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\LoginUser\\LoginDtos.cs",
+              "RelativeToolTip": "HotelManagementApi\\DTOs\\LoginUser\\LoginDtos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:02:38.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\RoomsController.cs",
+              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "HotelManagementApi\\Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:00:12.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SendData.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Data\\SendData.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Data\\SendData.cs",
@@ -220,77 +307,11 @@
               "RelativeToolTip": "HotelManagementApi\\Data\\SendData.cs",
               "ViewState": "AgIAAG0AAAAAAAAAAAAQwHgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T15:54:16.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T15:54:16.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "HotelManagementApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T03:18:13.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\LoginUser\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\LoginUser\\LoginRequest.cs",
-              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\LoginUser\\LoginRequest.cs",
-              "RelativeToolTip": "HotelManagementApi\\DTOs\\LoginUser\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T03:09:09.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\LoginUser\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\LoginUser\\LoginResponse.cs",
-              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\LoginUser\\LoginResponse.cs",
-              "RelativeToolTip": "HotelManagementApi\\DTOs\\LoginUser\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T03:10:10.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserInfo.cs",
-              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\LoginUser\\UserInfo.cs",
-              "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\LoginUser\\UserInfo.cs",
-              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\LoginUser\\UserInfo.cs",
-              "RelativeToolTip": "HotelManagementApi\\DTOs\\LoginUser\\UserInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T03:10:52.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IJwtService.cs",
-              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IJwtService.cs",
-              "RelativeDocumentMoniker": "HotelManagementApi\\Services\\IJwtService.cs",
-              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IJwtService.cs",
-              "RelativeToolTip": "HotelManagementApi\\Services\\IJwtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T03:13:49.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "RevenueReportDto.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Reports\\RevenueReportDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Reports\\RevenueReportDto.cs",
@@ -298,12 +319,11 @@
               "RelativeToolTip": "HotelManagementApi\\DTOs\\Reports\\RevenueReportDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:04:41.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T02:04:41.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "CreateRoomTypeDto.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\RoomType\\CreateRoomTypeDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\RoomType\\CreateRoomTypeDto.cs",
@@ -311,12 +331,11 @@
               "RelativeToolTip": "HotelManagementApi\\DTOs\\RoomType\\CreateRoomTypeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:03:42.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T02:03:42.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RoomTypeDto.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\RoomType\\RoomTypeDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\RoomType\\RoomTypeDto.cs",
@@ -324,12 +343,11 @@
               "RelativeToolTip": "HotelManagementApi\\DTOs\\RoomType\\RoomTypeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:03:10.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T02:03:10.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CreateRoomDto.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Room\\CreateRoomDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Room\\CreateRoomDto.cs",
@@ -337,12 +355,11 @@
               "RelativeToolTip": "HotelManagementApi\\DTOs\\Room\\CreateRoomDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:04:16.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T02:04:16.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "RoomTypesController.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomTypesController.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\RoomTypesController.cs",
@@ -350,12 +367,11 @@
               "RelativeToolTip": "HotelManagementApi\\Controllers\\RoomTypesController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:00:00.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T02:00:00.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\appsettings.json",
               "RelativeDocumentMoniker": "HotelManagementApi\\appsettings.json",
@@ -366,12 +382,8 @@
               "WhenOpened": "2025-11-19T02:40:22.876Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "TestController.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\TestController.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\TestController.cs",
@@ -383,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "HotelDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Migrations\\HotelDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Migrations\\HotelDbContextModelSnapshot.cs",
@@ -395,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "20251120025848_InitialCreate.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Migrations\\20251120025848_InitialCreate.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Migrations\\20251120025848_InitialCreate.cs",
@@ -407,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\WeatherForecast.cs",
@@ -419,55 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HotelManagementApi.http",
-              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\HotelManagementApi.http",
-              "RelativeDocumentMoniker": "HotelManagementApi\\HotelManagementApi.http",
-              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\HotelManagementApi.http",
-              "RelativeToolTip": "HotelManagementApi\\HotelManagementApi.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-11-19T03:53:21.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ReportsController.cs",
-              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\ReportsController.cs",
-              "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\ReportsController.cs",
-              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\ReportsController.cs",
-              "RelativeToolTip": "HotelManagementApi\\Controllers\\ReportsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:00:22.687Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "RoomsController.cs",
-              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomsController.cs",
-              "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\RoomsController.cs",
-              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomsController.cs",
-              "RelativeToolTip": "HotelManagementApi\\Controllers\\RoomsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:00:12.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IReportService.cs",
-              "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IReportService.cs",
-              "RelativeDocumentMoniker": "HotelManagementApi\\Services\\IReportService.cs",
-              "ToolTip": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IReportService.cs",
-              "RelativeToolTip": "HotelManagementApi\\Services\\IReportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:01:08.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\WeatherForecastController.cs",
@@ -479,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "IRoomTypeService.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IRoomTypeService.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Services\\IRoomTypeService.cs",
@@ -491,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "IRoomService.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IRoomService.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Services\\IRoomService.cs",
@@ -503,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "UpdateRoomTypeDto.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\RoomType\\UpdateRoomTypeDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\RoomType\\UpdateRoomTypeDto.cs",
@@ -511,12 +475,11 @@
               "RelativeToolTip": "HotelManagementApi\\DTOs\\RoomType\\UpdateRoomTypeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:03:52.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T02:03:52.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "UpdateRoomDto.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Room\\UpdateRoomDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Room\\UpdateRoomDto.cs",
@@ -524,12 +487,11 @@
               "RelativeToolTip": "HotelManagementApi\\DTOs\\Room\\UpdateRoomDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:04:29.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T02:04:29.611Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 25,
               "Title": "RoomDto.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
@@ -537,12 +499,11 @@
               "RelativeToolTip": "HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T02:04:06.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T02:04:06.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 26,
               "Title": "HotelDbContext.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Data\\HotelDbContext.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Data\\HotelDbContext.cs",
@@ -554,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 27,
               "Title": "RoomType.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Models\\RoomType.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Models\\RoomType.cs",
@@ -566,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 30,
               "Title": "Room.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Models\\Room.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Models\\Room.cs",
@@ -578,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 32,
               "Title": "BookingDetail.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Models\\BookingDetail.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Models\\BookingDetail.cs",
@@ -590,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 33,
               "Title": "Booking.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Models\\Booking.cs",
@@ -602,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 31,
               "Title": "Invoice.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Models\\Invoice.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Models\\Invoice.cs",
@@ -614,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 29,
               "Title": "RoomStatusLog.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Models\\RoomStatusLog.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Models\\RoomStatusLog.cs",
@@ -626,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 28,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\Models\\User.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Models\\User.cs",
@@ -638,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 34,
               "Title": "HotelManagementApi.csproj",
               "DocumentMoniker": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\HotelManagementApi.csproj",
               "RelativeDocumentMoniker": "HotelManagementApi\\HotelManagementApi.csproj",

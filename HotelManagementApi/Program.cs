@@ -15,7 +15,7 @@ builder.Services.AddDbContext<HotelDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // === 3. Đăng ký JwtService ===
-builder.Services.AddScoped<IJwtService, JwtService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 // === 4. CẤU HÌNH AUTHENTICATION JWTBEARER CHUẨN NHẤT ===
 builder.Services.AddAuthentication(options =>

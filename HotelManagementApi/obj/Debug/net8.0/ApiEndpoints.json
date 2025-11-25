@@ -8,12 +8,22 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "HotelManagementApi.Controllers.LoginRequest",
+        "Name": "loginDto",
+        "Type": "HotelManagementApi.DTOs.LoginDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "HotelManagementApi.DTOs.LoginResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "HotelManagementApi.Controllers.TestController",
