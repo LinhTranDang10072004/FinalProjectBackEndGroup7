@@ -18,7 +18,7 @@ namespace HotelManagementApi.Controllers
         public async Task<IActionResult> GetDaily([FromQuery] DateTime date)
         {
             var revenue = await _report.GetRevenueByDateAsync(date);
-            return Ok(new { Date = date.ToString("yyyy-MM-dd"), Revenue = revenue });
+            return Ok(new { Date = date.ToString("dd-MM-yyyy"), Revenue = revenue });
         }
 
         // GET: api/reports/revenue/monthly?year=2025&month=12
@@ -48,8 +48,8 @@ namespace HotelManagementApi.Controllers
             var revenue = await _report.GetRevenueByDateRangeAsync(from, to);
             return Ok(new
             {
-                From = from.ToString("yyyy-MM-dd"),
-                To = to.ToString("yyyy-MM-dd"),
+                From = from.ToString("dd-MM-yyyy"),
+                To = to.ToString("dd-MM-yyyy"),
                 TotalRevenue = revenue
             });
         }
