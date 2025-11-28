@@ -8,8 +8,9 @@
         public decimal RoomRevenue { get; set; }
         public int TotalBookings { get; set; }
         public int TotalRoomNights { get; set; }
-        public decimal AvgDailyRevenue => DateTime.DaysInMonth(Year, Month) > 0
-            ? Math.Round(RoomRevenue / DateTime.DaysInMonth(Year, Month), 2)
-            : 0;
+        public decimal AvgDailyRevenue { get; set; }
+        public decimal OccupancyRate { get; set; }
+        public decimal ADR { get; set; }
+        public decimal RevPAR { get; set; }
     }
 }

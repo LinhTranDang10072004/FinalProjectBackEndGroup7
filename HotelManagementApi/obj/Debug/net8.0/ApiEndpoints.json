@@ -1,24 +1,66 @@
 [
   {
-    "ContainingType": "HotelManagementApi.Controllers.AuthController",
-    "Method": "Login",
-    "RelativePath": "api/Auth/login",
-    "HttpMethod": "POST",
+    "ContainingType": "HotelManagementApi.Controllers.ReportsController",
+    "Method": "GetDaily",
+    "RelativePath": "api/reports/revenue/daily",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "HotelManagementApi.Controllers.LoginRequest",
-        "IsRequired": true
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HotelManagementApi.Controllers.TestController",
-    "Method": "AdminOnly",
-    "RelativePath": "api/Test/admin-only",
+    "ContainingType": "HotelManagementApi.Controllers.ReportsController",
+    "Method": "GetMonthly",
+    "RelativePath": "api/reports/revenue/monthly",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "month",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelManagementApi.Controllers.ReportsController",
+    "Method": "GetRange",
+    "RelativePath": "api/reports/revenue/range",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelManagementApi.Controllers.ReportsController",
+    "Method": "GetTotal",
+    "RelativePath": "api/reports/revenue/total",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -26,33 +68,24 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HotelManagementApi.Controllers.TestController",
-    "Method": "Private",
-    "RelativePath": "api/Test/private",
+    "ContainingType": "HotelManagementApi.Controllers.ReportsController",
+    "Method": "GetYearly",
+    "RelativePath": "api/reports/revenue/yearly",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HotelManagementApi.Controllers.TestController",
-    "Method": "Public",
-    "RelativePath": "api/Test/public",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HotelManagementApi.Controllers.TestController",
-    "Method": "StaffOnly",
-    "RelativePath": "api/Test/staff-only",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
