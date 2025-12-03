@@ -27,7 +27,7 @@ namespace HotelManagementApi.Controllers
         public async Task<IActionResult> GetMonthly([FromQuery] int year, [FromQuery] int? month)
         {
             if (month.HasValue)
-                return Ok(await _report.GetRevenueByMonthAsync(year, month.Value));
+                return Ok(await _report.GetMonthlyRevenueAsync(year, month.Value));
 
             // Nếu không có month → trả về 12 tháng của năm
             return Ok(await _report.GetRevenueByYearAsync(year));

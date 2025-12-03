@@ -45,6 +45,7 @@ namespace HotelManagementApi.Controllers
             var response = new LoginResponse
             {
                 Token = token,
+                RefreshToken = string.Empty, // TODO: Implement refresh token if needed
                 Expires = DateTime.Now.AddHours(24),
                 User = new UserInfo
                 {

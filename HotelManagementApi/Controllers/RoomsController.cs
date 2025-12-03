@@ -1,3 +1,4 @@
+using HotelManagementApi.DTOs;
 using HotelManagementApi.DTOs.Room;
 using HotelManagementApi.Services;
 using Microsoft.AspNetCore.Authorization;
@@ -49,9 +50,21 @@ namespace HotelManagementApi.Controllers
         [HttpDelete("Delete/{id}")]
         public async Task<IActionResult> DeleteRoom(int id)
         {
-            var result = await _roomService.DeleteRoom(id);
-            if (!result) return NotFound();
-            return NoContent();
+            try
+            {
+                var result = await _roomService.DeleteRoom(id);
+                if (!result) return NotFound(new { message = "Không tìm thấy phòng với ID này." });
+                return NoContent();
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Đã xảy ra lỗi khi xóa phòng.", error = ex.Message });
+            }
         }
 
+    }
 }

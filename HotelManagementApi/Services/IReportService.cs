@@ -10,8 +10,11 @@ namespace HotelManagementApi.Services
         // 2. Doanh thu từ ngày đến ngày (mới - dùng cho tổng từ đầu và range)
         Task<decimal> GetRevenueByDateRangeAsync(DateTime fromDate, DateTime toDate);
 
-        // 3. Doanh thu 1 tháng nhập năm, tháng => select hết các ngày trong năm,tháng đó
+        // 3. Doanh thu 1 tháng nhập năm, tháng => select hết các ngày trong năm,tháng đó (trả về Daily)
         Task<List<DailyRevenueDto>> GetRevenueByMonthAsync(int year, int month);
+
+        // 3b. Doanh thu 1 tháng cụ thể (trả về MonthlyRevenueDto)
+        Task<MonthlyRevenueDto> GetMonthlyRevenueAsync(int year, int month);
 
         // 4. Doanh thu 12 tháng của 1 năm (trả về Monthly, không phải Daily!)
         Task<List<MonthlyRevenueDto>> GetRevenueByYearAsync(int year);  // trả về 12 tháng

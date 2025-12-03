@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\HotelManagementApi.csproj": {}
+    "C:\\Users\\letha\\OneDrive\\Documents\\Kỳ6\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\HotelManagementApi.csproj": {}
   },
   "projects": {
-    "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\HotelManagementApi.csproj": {
+    "C:\\Users\\letha\\OneDrive\\Documents\\Kỳ6\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\HotelManagementApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\HotelManagementApi.csproj",
+        "projectUniqueName": "C:\\Users\\letha\\OneDrive\\Documents\\Kỳ6\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\HotelManagementApi.csproj",
         "projectName": "HotelManagementApi",
-        "projectPath": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\HotelManagementApi.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHUb\\Project\\FinalProjectBackEnd\\HotelManagementApi\\obj\\",
+        "projectPath": "C:\\Users\\letha\\OneDrive\\Documents\\Kỳ6\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\HotelManagementApi.csproj",
+        "packagesPath": "C:\\Users\\letha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\letha\\OneDrive\\Documents\\Kỳ6\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\letha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -55,6 +56,10 @@
               "version": "[4.0.3, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.22, )"
             },
@@ -98,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

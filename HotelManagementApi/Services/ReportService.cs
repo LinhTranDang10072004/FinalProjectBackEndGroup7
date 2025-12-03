@@ -76,6 +76,27 @@ namespace HotelManagementApi.Services
             return dict.Values.OrderBy(x => x.Date).ToList();
         }
 
+        public async Task<MonthlyRevenueDto> GetMonthlyRevenueAsync(int year, int month)
+        {
+            var monthStart = new DateTime(year, month, 1);
+            var monthEnd = monthStart.AddMonths(1).AddDays(-1);
+            var revenue = await GetRevenueByDateRangeAsync(monthStart, monthEnd);
+
+            var days = DateTime.DaysInMonth(year, month);
+            return new MonthlyRevenueDto
+            {
+                Year = year,
+                Month = month,
+                RoomRevenue = revenue,
+                TotalBookings = 0,
+                TotalRoomNights = 0,
+                AvgDailyRevenue = Math.Round(revenue / days, 2),
+                OccupancyRate = 0,
+                ADR = 0,
+                RevPAR = Math.Round(revenue / (TotalRooms * days), 2)
+            };
+        }
+
         public async Task<List<MonthlyRevenueDto>> GetRevenueByYearAsync(int year)
         {
             var result = new List<MonthlyRevenueDto>();
