@@ -36,6 +36,26 @@ namespace HotelManagementApi.Services
                 .ToListAsync();
         }
 
+        public async Task<IEnumerable<RoomDto>> GetAllRooms()
+        {
+            return await _db.Rooms
+                .Include(r => r.RoomType)
+                .Select(r => new RoomDto
+                {
+                    RoomID = r.RoomID,
+                    RoomNumber = r.RoomNumber,
+                    Floor = r.Floor,
+                    Status = r.Status,
+                    IsActive = r.IsActive,
+                    RoomTypeID = r.RoomTypeID,
+                    RoomTypeName = r.RoomType.TypeName,
+                    BasePrice = r.RoomType.BasePrice
+                })
+                .OrderBy(r => r.Floor)
+                .ThenBy(r => r.RoomNumber)
+                .ToListAsync();
+        }
+
         public async Task<IEnumerable<RoomDto>> GetRoomsByStatus(string? status)
         {
             var query = _db.Rooms
@@ -81,7 +101,33 @@ namespace HotelManagementApi.Services
                 Status = room.Status,
                 IsActive = room.IsActive,
                 RoomTypeID = room.RoomTypeID,
-                RoomTypeName = room.RoomType.TypeName
+                RoomTypeName = room.RoomType.TypeName,
+                BasePrice = room.RoomType.BasePrice
+            };
+        }
+
+        public async Task<RoomDetailDto?> GetRoomDetail(int id)
+        {
+            var room = await _db.Rooms
+                .Include(r => r.RoomType)
+                .FirstOrDefaultAsync(r => r.RoomID == id);
+
+            if (room == null) return null;
+
+            return new RoomDetailDto
+            {
+                RoomID = room.RoomID,
+                RoomNumber = room.RoomNumber,
+                Floor = room.Floor,
+                Status = room.Status,
+                IsActive = room.IsActive,
+                RoomTypeID = room.RoomTypeID,
+                RoomTypeName = room.RoomType.TypeName,
+                BasePrice = room.RoomType.BasePrice,
+                Capacity = room.RoomType.Capacity,
+                BedType = room.RoomType.BedType,
+                AreaSqm = room.RoomType.AreaSqm,
+                Description = room.RoomType.Description
             };
         }
 
@@ -129,6 +175,34 @@ namespace HotelManagementApi.Services
             if (dto.IsActive.HasValue)
                 room.IsActive = dto.IsActive.Value;
 
+            if (dto.Status != null)
+            {
+                // Validate status
+                var validStatuses = new[] { "Available", "Booked", "Occupied", "Maintenance" };
+                if (!validStatuses.Contains(dto.Status))
+                {
+                    throw new ArgumentException($"Status không hợp lệ. Các giá trị hợp lệ: {string.Join(", ", validStatuses)}");
+                }
+                room.Status = dto.Status;
+            }
+
+            await _db.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<bool> UpdateRoomStatus(int id, string status)
+        {
+            var room = await _db.Rooms.FindAsync(id);
+            if (room == null) return false;
+
+            // Validate status
+            var validStatuses = new[] { "Available", "Booked", "Occupied", "Maintenance" };
+            if (!validStatuses.Contains(status))
+            {
+                throw new ArgumentException($"Status không hợp lệ. Các giá trị hợp lệ: {string.Join(", ", validStatuses)}");
+            }
+
+            room.Status = status;
             await _db.SaveChangesAsync();
             return true;
         }

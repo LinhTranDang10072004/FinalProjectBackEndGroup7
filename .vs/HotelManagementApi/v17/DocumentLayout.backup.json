@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|c:\\users\\letha\\onedrive\\documents\\k\u1EF36\\finalprojectfa\\backend\\finalprojectbackend\\hotelmanagementapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|c:\\users\\letha\\onedrive\\documents\\k\u1EF36\\finalprojectfa\\backend\\finalprojectbackend\\hotelmanagementapi\\services\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\services\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|c:\\users\\letha\\onedrive\\documents\\k\u1EF36\\finalprojectfa\\backend\\finalprojectbackend\\hotelmanagementapi\\controllers\\roomtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\roomtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|c:\\users\\letha\\onedrive\\documents\\k\u1EF36\\finalprojectfa\\backend\\finalprojectbackend\\hotelmanagementapi\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|c:\\users\\letha\\onedrive\\documents\\k\u1EF36\\finalprojectfa\\backend\\finalprojectbackend\\hotelmanagementapi\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|c:\\users\\letha\\onedrive\\documents\\k\u1EF36\\finalprojectfa\\backend\\finalprojectbackend\\hotelmanagementapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|c:\\users\\letha\\onedrive\\documents\\k\u1EF36\\finalprojectfa\\backend\\finalprojectbackend\\hotelmanagementapi\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|c:\\users\\letha\\onedrive\\documents\\k\u1EF36\\finalprojectfa\\backend\\finalprojectbackend\\hotelmanagementapi\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|c:\\users\\letha\\onedrive\\documents\\k\u1EF36\\finalprojectfa\\backend\\finalprojectbackend\\hotelmanagementapi\\controllers\\roomtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|solutionrelative:hotelmanagementapi\\controllers\\roomtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DBEF817-3778-41D1-858B-52730273C77E}|HotelManagementApi\\HotelManagementApi.csproj|c:\\users\\letha\\onedrive\\documents\\k\u1EF36\\finalprojectfa\\backend\\finalprojectbackend\\hotelmanagementapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,31 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RoomsController.cs",
-              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomsController.cs",
-              "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\RoomsController.cs",
-              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomsController.cs",
-              "RelativeToolTip": "HotelManagementApi\\Controllers\\RoomsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:55:12.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RoomDto.cs",
-              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
-              "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
-              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
-              "RelativeToolTip": "HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T03:04:34.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\appsettings.json",
               "RelativeDocumentMoniker": "HotelManagementApi\\appsettings.json",
@@ -190,12 +166,11 @@
               "RelativeToolTip": "HotelManagementApi\\appsettings.json",
               "ViewState": "AgIAAAMAAAAAAAAAAAAgwBAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-24T07:04:20.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T07:04:20.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SendData.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Data\\SendData.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Data\\SendData.cs",
@@ -203,12 +178,11 @@
               "RelativeToolTip": "HotelManagementApi\\Data\\SendData.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAAAmwHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T04:29:49.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T04:29:49.939Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ReportsController.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\ReportsController.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\ReportsController.cs",
@@ -220,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RoomService.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Services\\RoomService.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Services\\RoomService.cs",
@@ -228,25 +202,62 @@
               "RelativeToolTip": "HotelManagementApi\\Services\\RoomService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T07:01:16.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T07:01:16.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "IRoomService.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IRoomService.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Services\\IRoomService.cs",
               "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IRoomService.cs",
               "RelativeToolTip": "HotelManagementApi\\Services\\IRoomService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T03:01:43.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomTypesController.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\RoomTypesController.cs",
+              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomTypesController.cs",
+              "RelativeToolTip": "HotelManagementApi\\Controllers\\RoomTypesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T02:55:17.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "HotelManagementApi\\Controllers\\RoomsController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T02:55:12.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "RoomDto.cs",
+              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
+              "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
+              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
+              "RelativeToolTip": "HotelManagementApi\\DTOs\\Room\\RoomDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T03:04:34.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UpdateRoomTypeDto.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\RoomType\\UpdateRoomTypeDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\RoomType\\UpdateRoomTypeDto.cs",
@@ -258,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IRoomTypeService.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IRoomTypeService.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Services\\IRoomTypeService.cs",
@@ -270,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CreateBookingDto.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Booking\\CreateBookingDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Booking\\CreateBookingDto.cs",
@@ -278,12 +289,11 @@
               "RelativeToolTip": "HotelManagementApi\\DTOs\\Booking\\CreateBookingDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T06:55:32.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T06:55:32.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "BookingsController.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\BookingsController.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\BookingsController.cs",
@@ -307,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RoomTypeDto.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\RoomType\\RoomTypeDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\RoomType\\RoomTypeDto.cs",
@@ -319,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CreateRoomTypeDto.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\RoomType\\CreateRoomTypeDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\RoomType\\CreateRoomTypeDto.cs",
@@ -331,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Models\\Room.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Models\\Room.cs",
@@ -343,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DailyRevenueDto.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Reposts\\DailyRevenueDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Reposts\\DailyRevenueDto.cs",
@@ -355,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MonthlyRevenueDto.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Reposts\\MonthlyRevenueDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Reposts\\MonthlyRevenueDto.cs",
@@ -367,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "YearlyRevenueDto.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\DTOs\\Reposts\\YearlyRevenueDto.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\DTOs\\Reposts\\YearlyRevenueDto.cs",
@@ -379,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Services\\JwtService.cs",
@@ -391,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "IJwtService.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IJwtService.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Services\\IJwtService.cs",
@@ -400,18 +410,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T03:01:39.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RoomTypesController.cs",
-              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomTypesController.cs",
-              "RelativeDocumentMoniker": "HotelManagementApi\\Controllers\\RoomTypesController.cs",
-              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Controllers\\RoomTypesController.cs",
-              "RelativeToolTip": "HotelManagementApi\\Controllers\\RoomTypesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:55:17.349Z"
             },
             {
               "$type": "Document",
@@ -439,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IReportService.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\K\u1EF36\\FinalProjectFA\\BackEnd\\FinalProjectBackEnd\\HotelManagementApi\\Services\\IReportService.cs",
               "RelativeDocumentMoniker": "HotelManagementApi\\Services\\IReportService.cs",
